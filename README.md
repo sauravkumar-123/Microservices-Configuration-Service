@@ -1,2 +1,2 @@
-# Microservices-Configuration-Server
-Central Configuration Server For All Microservices.
+# Microservices-Configuration-Service
+Central Configuration Service For All Microservices.
