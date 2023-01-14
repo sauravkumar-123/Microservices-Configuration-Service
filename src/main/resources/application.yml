@@ -1,0 +1,35 @@
+server:
+  port: 4040
+  
+spring:
+  application:
+    name: ConfigurationService
+  cloud:
+    config:
+      server:
+        git:
+           username: sauravkumar-123
+           password: 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
+           uri: https://github.com/sauravkumar-123/Central-Configuration-Server
+           default-label: saurav_master
+         #  uri : file:///C:/Users/saura/Projects/Central-Configuration-Server 
+           clone-on-start: true
+       # bootstrap: true
+      #  enabled: true      
+  
+#  profiles:
+#   active: default
+    
+logging:
+  file:
+    name: C:/Users/saura/Projects/SmartPay_Logger/ConfigService/configService.log
+  level:
+    com:
+      eurekaserver: DEBUG
+    root: INFO
+
+#eureka:
+#  client:
+#    service-url:
+#      default-zone: http://localhost:8761/eureka/        
+#    
